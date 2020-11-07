@@ -1,10 +1,85 @@
-* 4032c08 (HEAD -> master, origin/master, origin/feuture-resta, origin/HEAD, feuture-resta) calculadora_commit.log generado
-| * 6b1e268 (origin/feuture-suma, origin/feuture-multiplicacion, feuture-suma, feuture-multiplicacion) Merge branch 'feuture-suma' of github.com:sebassabes/calculadora into feuture-suma
-|/| 
-| * 8f33036 Update README.md
-| * 27bc47a Update README.md
-| * cb8db13 Update README.md
-* | 4e263a5 funcion suma y archivo test.log
-* | 61ef6b7 poniendo mi nuevas ramas y archivo test.log
-|/  
-* d8fb7ee initial commit
+commit 986d6e73421ce2a4a12356608338ccc6da453b10
+Author: sebassabes <sebastian.andres.aracena@gmail.com>
+Date:   Sat Nov 7 11:28:07 2020 -0300
+
+    log mas detallado
+
+ calculadora_commit.log | 27 ++++++++++-----------------
+ 1 file changed, 10 insertions(+), 17 deletions(-)
+
+commit 4032c08862b6886a664aaa91e7dac82ec4e5d52f
+Author: sebassabes <sebastian.andres.aracena@gmail.com>
+Date:   Sat Nov 7 10:07:25 2020 -0300
+
+    calculadora_commit.log generado
+
+ calculadora_commit.log | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit 4e263a5ca9ed06c248aa6f46c708276e606332c1
+Author: sebassabes <sebastian.andres.aracena@gmail.com>
+Date:   Sat Nov 7 09:37:25 2020 -0300
+
+    funcion suma y archivo test.log
+
+ angular.json                                      |  244 +-
+ package-lock.json                                 | 3369 ++++++++++++++-------
+ package.json                                      |    7 +-
+ src/app/app.component.html                        |  537 +---
+ src/app/app.module.ts                             |    8 +-
+ src/app/calculadora/calculadora.component.css     |    0
+ src/app/calculadora/calculadora.component.html    |   40 +
+ src/app/calculadora/calculadora.component.spec.ts |   25 +
+ src/app/calculadora/calculadora.component.ts      |   98 +
+ src/app/servicio/servicio.service.ts              |   29 +
+ src/assets/calculadora.png                        |  Bin 0 -> 68694 bytes
+ src/index.html                                    |   19 +-
+ 12 files changed, 2623 insertions(+), 1753 deletions(-)
+
+commit 61ef6b7dc85a1ac0c903b4f94f0a7dbe70b45255
+Author: sebassabes <sebastian.andres.aracena@gmail.com>
+Date:   Sat Nov 7 09:35:49 2020 -0300
+
+    poniendo mi nuevas ramas y archivo test.log
+
+ test/test.log | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit d8fb7ee877eaafafc715e79630b45140072dbb33
+Author: sebassabes <sebastian.andres.aracena@gmail.com>
+Date:   Tue Nov 3 10:29:42 2020 -0300
+
+    initial commit
+
+ .editorconfig                        |    13 +
+ .gitignore                           |    46 +
+ README.md                            |    27 +
+ angular.json                         |   124 +
+ browserslist                         |    12 +
+ e2e/protractor.conf.js               |    32 +
+ e2e/src/app.e2e-spec.ts              |    23 +
+ e2e/src/app.po.ts                    |    11 +
+ e2e/tsconfig.json                    |    13 +
+ karma.conf.js                        |    32 +
+ package-lock.json                    | 12495 +++++++++++++++++++++++++++++++++
+ package.json                         |    47 +
+ src/app/app-routing.module.ts        |    11 +
+ src/app/app.component.css            |     0
+ src/app/app.component.html           |   534 ++
+ src/app/app.component.spec.ts        |    35 +
+ src/app/app.component.ts             |    10 +
+ src/app/app.module.ts                |    18 +
+ src/assets/.gitkeep                  |     0
+ src/environments/environment.prod.ts |     3 +
+ src/environments/environment.ts      |    16 +
+ src/favicon.ico                      |   Bin 0 -> 948 bytes
+ src/index.html                       |    13 +
+ src/main.ts                          |    12 +
+ src/polyfills.ts                     |    63 +
+ src/styles.css                       |     1 +
+ src/test.ts                          |    25 +
+ tsconfig.app.json                    |    14 +
+ tsconfig.json                        |    26 +
+ tsconfig.spec.json                   |    18 +
+ tslint.json                          |    91 +
+ 31 files changed, 13765 insertions(+)
