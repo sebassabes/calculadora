@@ -1,17 +1,10 @@
-commit 4e263a5ca9ed06c248aa6f46c708276e606332c1
-Author: sebassabes <sebastian.andres.aracena@gmail.com>
-Date:   Sat Nov 7 09:37:25 2020 -0300
-
-    funcion suma y archivo test.log
-
-commit 61ef6b7dc85a1ac0c903b4f94f0a7dbe70b45255
-Author: sebassabes <sebastian.andres.aracena@gmail.com>
-Date:   Sat Nov 7 09:35:49 2020 -0300
-
-    poniendo mi nuevas ramas y archivo test.log
-
-commit d8fb7ee877eaafafc715e79630b45140072dbb33
-Author: sebassabes <sebastian.andres.aracena@gmail.com>
-Date:   Tue Nov 3 10:29:42 2020 -0300
-
-    initial commit
+* 4032c08 (HEAD -> master, origin/master, origin/feuture-resta, origin/HEAD, feuture-resta) calculadora_commit.log generado
+| * 6b1e268 (origin/feuture-suma, origin/feuture-multiplicacion, feuture-suma, feuture-multiplicacion) Merge branch 'feuture-suma' of github.com:sebassabes/calculadora into feuture-suma
+|/| 
+| * 8f33036 Update README.md
+| * 27bc47a Update README.md
+| * cb8db13 Update README.md
+* | 4e263a5 funcion suma y archivo test.log
+* | 61ef6b7 poniendo mi nuevas ramas y archivo test.log
+|/  
+* d8fb7ee initial commit
