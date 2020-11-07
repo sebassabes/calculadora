@@ -1,0 +1,40 @@
+<br />
+<div class="container">
+    <div class="col-sm ml-auto mr-auto text-center">
+        <div class="card">
+            <div class="card-header">
+                <h4>Calculadora</h4>
+            </div>
+            <div class="card-body">
+                <div class="col-sm ml-auto mr-auto text-center">
+                    <img src="./assets/calculadora.png" width="80%" height="80%">
+                </div>
+                <hr />
+                <form #forma="ngForm" novalidate="">
+                    <div class="row form-group">
+                        <label class="col-sm"> Número 1 <font color="red">*</font></label>
+                        <div class="col-sm-8">
+                            <input type="number" [(ngModel)]="numero.p1" name="p1" #p1="ngModel" class="form-control" required/>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row form-group">
+                        <label class="col-sm"> Número 2 <font color="red">*</font></label>
+                        <div class="col-sm-8">
+                            <input type="number" class="form-control" [(ngModel)]="numero.p2" name="p2" #p2="ngModel" required/>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="col-sm ml-auto mr-auto text-center">
+                        <button [disabled]="!forma.valid" class="btn btn-outline-danger w-25" (click)="get_sumar()"><i class="fas fa-plus-square"></i></button>
+                        <button [disabled]="!forma.valid" class="btn btn-outline-dark w-25" (click)="get_restar()"><i class="fas fa-minus-square"></i></button>
+                        <button [disabled]="!forma.valid" class="btn btn-outline-success w-25" (click)="get_mult()"><i class="fas fa-times-circle"></i></button>
+                        <button [disabled]="!forma.valid" class="btn btn-outline-primary w-25" (click)="get_div()"><i class="fas fa-divide"></i></button>
+                    </div>
+                </form>
+                <hr/>
+            </div>
+        </div>
+
+    </div>
+</div>
